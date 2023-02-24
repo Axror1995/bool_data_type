@@ -7,10 +7,10 @@
     Returns:
         bool
     */
-bool func(int a) {
-  return a != 3;
+bool func(int a,int b) {
+  return a != b;
 }
 
 void main() {
-  print(func(4));
+  print(func(3,3));
 }
